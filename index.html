@@ -148,7 +148,7 @@
   <header class="top">
     <span class="eyebrow">PRIVACY POLICY</span>
     <h1>ドレカラ－スマートタスク管理 プライバシーポリシー</h1>
-    <div class="meta">最終更新日：2026年9月23日</div>
+    <div class="meta">最終更新日：2026年11月18日</div>
   </header>
 
   <div class="card">
@@ -188,12 +188,12 @@
     <section>
       <h2><span class="num">04</span>Health Connect（体調の自動読み取り・任意）</h2>
       <p>
-        設定でオンにした場合のみ、Health Connect 経由で睡眠・歩数・安静時心拍のデータを読み取ります。
+        設定でオンにした場合のみ、Health Connect 経由で睡眠のデータを読み取ります。
         <strong>これらの生データは保存・送信されず、その場で「今日の体力スコア」に変換した直後に破棄されます。</strong>
         既定ではオフになっており、オンにしなくても本アプリは自己申告（今の調子）だけで問題なく動作します。
       </p>
       <table>
-        <tr><th>取得するデータ</th><td>睡眠時間・歩数・安静時心拍数</td></tr>
+        <tr><th>取得するデータ</th><td>睡眠時間</td></tr>
         <tr><th>保存</th><td><span class="tag">しない</span></td></tr>
         <tr><th>外部送信</th><td><span class="tag">しない</span></td></tr>
         <tr><th>第三者提供</th><td><span class="tag">しない</span></td></tr>
@@ -206,7 +206,14 @@
     </section>
 
     <section>
-      <h2><span class="num">06</span>AI連携機能（任意・利用者自身のAPIキーを使用）</h2>
+      <h2><span class="num">06</span>天気予報の取得</h2>
+      <p>天気に合わせてタスクを提案するため、設定で選んだ地域（都道府県。既定は東京都）の天気予報を、天気情報サービス Open-Meteo（api.open-meteo.com）から取得します。
+      送信されるのは、選んだ都道府県の県庁所在地の緯度・経度だけです。端末の位置情報は使用せず、位置情報の権限も求めません。
+      タスクの内容など、利用者が入力した情報が送信されることはありません。設定で「天気を使う」をオフにすると、天気の取得は行われません。</p>
+    </section>
+
+    <section>
+      <h2><span class="num">07</span>AI連携機能（任意・利用者自身のAPIキーを使用）</h2>
       <p>
         設定画面で利用者が自分の Anthropic API キーを入力した場合のみ、以下の機能が有効になります。
       </p>
@@ -224,7 +231,7 @@
     </section>
 
     <section>
-      <h2><span class="num">07</span>バックアップ（書き出し・読み込み）</h2>
+      <h2><span class="num">08</span>バックアップ（書き出し・読み込み）</h2>
       <p>
         利用者が「書き出す」を選んだ場合のみ、タスク・実行ログ・体調記録を1つのJSONファイルとして端末内に保存します。
         このファイルはクラウドへ自動アップロードされることはなく、保存先・共有方法は利用者の操作に委ねられます。
@@ -232,7 +239,7 @@
     </section>
 
     <section id="data-deletion">
-      <h2><span class="num">08</span>データの削除リクエスト方法</h2>
+      <h2><span class="num">09</span>データの削除リクエスト方法</h2>
       <p>
         「ドレカラ－スマートタスク管理」（開発者：nornlab）のデータはすべて<strong>お使いの端末内にのみ</strong>保存されており、
         開発者側のサーバーにはユーザーデータを一切保存していません。そのため、以下の方法で<strong>ユーザー自身が即座にデータを削除</strong>できます。
@@ -262,17 +269,17 @@
     </section>
 
     <section>
-      <h2><span class="num">09</span>子どもの利用について</h2>
+      <h2><span class="num">10</span>子どもの利用について</h2>
       <p>本アプリは13歳未満の子どもを主な対象としていません。子どもから故意に個人情報を収集することはありません。</p>
     </section>
 
     <section>
-      <h2><span class="num">10</span>本ポリシーの変更</h2>
+      <h2><span class="num">11</span>本ポリシーの変更</h2>
       <p>法令の変更や機能追加に伴い、本ポリシーを改定することがあります。重要な変更がある場合は、本ページ上での告知をもって通知に代えさせていただきます。</p>
     </section>
 
     <section>
-      <h2><span class="num">11</span>お問い合わせ</h2>
+      <h2><span class="num">12</span>お問い合わせ</h2>
       <p>本ポリシーおよび本アプリに関するお問い合わせは、下記メールアドレスまでご連絡ください。</p>
       <p><a href="mailto:nornlabtech@gmail.com">nornlabtech@gmail.com</a></p>
     </section>
